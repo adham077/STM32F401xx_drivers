@@ -377,6 +377,8 @@ RCC_enuErorrStatus_t RCC_DisableLowPowerMode(RCC_enuPeripherals_t Copy_enuPeriph
 static uint32_t RCC_u32GetInternalClkVal(void){
     RCC_enuCLK_t Loc_enuCLK = RCC_enuGetSysClk();
     uint32_t Loc_u32ClkVal = 0;
+    uint32_t Loc_u32ClkFactor = RCC_stPLL_Parameters.PLL_N/(RCC_stPLL_Parameters.PLL_M*RCC_stPLL_Parameters.PLL_P);
+
     switch (Loc_enuCLK){
         case RCC_enu_HSI:
             Loc_u32ClkVal = HSI_CLK_FREQ;
@@ -388,8 +390,7 @@ static uint32_t RCC_u32GetInternalClkVal(void){
         
         case RCC_enu_PLL:
             /*PLL Factor = N/(M*P)*/
-            uint32_t Loc_u32ClkFactor = 
-            RCC_stPLL_Parameters.PLL_N/(RCC_stPLL_Parameters.PLL_M*RCC_stPLL_Parameters.PLL_P);
+           
             if(RCC_stPLL_Parameters.PLL_CLK==RCC_enu_HSI){
                 Loc_u32ClkVal = Loc_u32ClkFactor*HSI_CLK_FREQ;
             }

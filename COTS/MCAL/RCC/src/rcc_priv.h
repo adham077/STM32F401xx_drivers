@@ -68,7 +68,6 @@ typedef struct{
     volatile uint32_t CIR;      /*Clock interrupt register*/
     volatile uint32_t AHB1RSTR; /*AHB1 peripheral reset register*/
     volatile uint32_t AHB2RSTR; /*AHB2 peripheral reset register*/
-    volatile uint32_t AHB2RSTR; /*AHB2 peripheral reset register*/
     volatile const uint64_t reserved1;/*Reserved*/
     volatile uint32_t APB1RSTR; /*APB1 peripheral reset register*/
     volatile uint32_t APB2RSTR; /*APB2 peripheral reset register*/

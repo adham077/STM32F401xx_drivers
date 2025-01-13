@@ -10,7 +10,6 @@
 #define MAX_AB2_CLK_FREQ        84000000 /*42MHz*/
 
 #define MAX_CLK_TYPE_INDEX      2
-#define MAX_BUS_INDEX           3
 #define MAX_PERIPHERAL_INDEX    114
 #define MAX_BYPASS_VAL          2
 #define MAX_PLL_CLK_INDEX       1
