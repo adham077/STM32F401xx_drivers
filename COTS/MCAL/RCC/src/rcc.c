@@ -389,7 +389,7 @@ static uint32_t RCC_u32GetInternalClkVal(void){
         case RCC_enu_PLL:
             /*PLL Factor = N/(M*P)*/
             uint32_t Loc_u32ClkFactor = 
-            RCC_stPLL_Parameters.PLL_M/(RCC_stPLL_Parameters.PLL_N*RCC_stPLL_Parameters.PLL_P);
+            RCC_stPLL_Parameters.PLL_N/(RCC_stPLL_Parameters.PLL_M*RCC_stPLL_Parameters.PLL_P);
             if(RCC_stPLL_Parameters.PLL_CLK==RCC_enu_HSI){
                 Loc_u32ClkVal = Loc_u32ClkFactor*HSI_CLK_FREQ;
             }
