@@ -2,12 +2,12 @@
 #define RCC_H_
 #include "std_types.h"
 
-#define HSI_CLK_FREQ            16000000  /*16MHz*/
-#define HSE_CLK_FREQ            24000000   /*24MHz*/
+#define HSI_CLK_FREQ            (16000000ULL)  /*16MHz*/
+#define HSE_CLK_FREQ            (24000000ULL)   /*24MHz*/
 
-#define MAX_AHB_CLK_FREQ        84000000 /*84MHz*/
-#define MAX_AB1_CLK_FREQ        42000000 /*42MHz*/
-#define MAX_AB2_CLK_FREQ        84000000 /*42MHz*/
+#define MAX_AHB_CLK_FREQ        (84000000ULL) /*84MHz*/
+#define MAX_AB1_CLK_FREQ        (42000000ULL) /*42MHz*/
+#define MAX_AB2_CLK_FREQ        (84000000ULL) /*42MHz*/
 
 #define MAX_CLK_TYPE_INDEX      2
 #define MAX_PERIPHERAL_INDEX    114
@@ -112,6 +112,9 @@ typedef enum{
 /*Enable Clock (HSI,HSE or PLL)*/
 RCC_enuErorrStatus_t RCC_enuEnableClk(RCC_enuCLK_t Copy_enuClk);
 
+/*Disable clock (HSI,HSE or PLL)*/
+RCC_enuErorrStatus_t RCC_enuDisableClk(RCC_enuCLK_t Copy_enuClk);
+
 /*Check Clock Status (HSI,HSE or PLL)*/
 RCC_enuErorrStatus_t RCC_enuClkStatus(RCC_enuCLK_t Copy_enuClk,uint32_t* Add_u8);
 
@@ -132,9 +135,7 @@ M parameter must be configured accordingly for vco input frequency to be in the 
 (1->2MHz) and recommended to be (2MHz)
 Q parameter must be configured accordingly for an output frequency of 48Mhz
 */
-RCC_enuErorrStatus_t RCC_enuConfigurePLL(uint8_t Copy_u8M,uint16_t Copy_u16N,uint8_t Copy_u8P,uint8_t Copy_u8Q,
-RCC_enuCLK_t Copy_enuSource);
-
+RCC_enuErorrStatus_t RCC_enuConfigurePLL(RCC_PLL_stParameters_t Loc_stParams);
 /*Set System Clock Source (HSI,HSE or PLL)*/
 RCC_enuErorrStatus_t RCC_enuSetSysClk(RCC_enuCLK_t Copy_enuClkSrc);
 
