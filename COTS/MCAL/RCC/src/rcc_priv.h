@@ -8,7 +8,7 @@
 #define RCC_HSI_RDY_MASK    0x00000002
 
 #define RCC_HSE_ON_MASK     0x00010000
-#define RCC_HSE_ON_MASK     0x00020000
+#define RCC_HSE_RDY_MASK     0x00020000
 
 #define RCC_CR_PLLON_MASK   0x01000000
 #define RCC_CR_PLLRDY_MASK  0x02000000
@@ -104,13 +104,7 @@ typedef struct{
     volatile uint32_t RCC_DCKCFGR;/*Dedicated Clock Configuration Register*/
 }RCC_stReg_t;
 
-typedef struct{
-    RCC_enuCLK_t PLL_CLK;
-    uint8_t PLL_M;
-    uint16_t PLL_N;
-    uint8_t PLL_P;
-    uint8_t PLL_Q;
-}RCC_PLL_stParameters_t;
+
 
 typedef struct{
     uint32_t AHB;

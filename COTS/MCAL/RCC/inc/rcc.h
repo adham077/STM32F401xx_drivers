@@ -106,6 +106,14 @@ typedef enum{
     RCC_enu_FLITF
 }RCC_enuPeripherals_t;
 
+typedef struct{
+    RCC_enuCLK_t PLL_CLK;
+    uint8_t PLL_M;
+    uint16_t PLL_N;
+    uint8_t PLL_P;
+    uint8_t PLL_Q;
+}RCC_PLL_stParameters_t;
+
 
 /*Function Prototypes*/
 

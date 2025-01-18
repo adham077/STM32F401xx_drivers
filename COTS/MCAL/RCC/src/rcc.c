@@ -215,6 +215,7 @@ RCC_enuErorrStatus_t RCC_enuConfigurePLL(RCC_PLL_stParameters_t Loc_stParams){
 
     RCC_enuErorrStatus_t Loc_enuStatus = RCC_enuOK;
     RCC_enuCLK_t Loc_enuTempCLk = RCC_enuGetSysClk();
+    uint64_t Loc_u64VCO = 0;
     uint8_t Loc_u8PLLState = GET_BIT(RCC->CR,RCC_CR_PLLON);
     if(Loc_u8PLLState){
         Loc_enuStatus = RCC_enu_err_PLL_ON;
