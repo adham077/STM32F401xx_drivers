@@ -42,6 +42,7 @@ void LED_vInit(void){
         LED_stPinCFG.AltFn = GPIO_enu_NoAF;
         LED_stPinCFG.speed = LED_arrCfgs[i].speed;
         LED_stPinCFG.InputType = GPIO_enu_NO_PU_PD;
+        LED_stPinCFG.OutputType = LED_arrCfgs[i].outputType;
         GPIO_enuCfgPin(&LED_stPinCFG);
     }
 }
