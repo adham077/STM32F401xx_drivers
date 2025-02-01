@@ -1,0 +1,3 @@
+C:/ITI Intake-45 9 Months/github_repos/ES45_ARM/COTS/MCAL/NVIC/build/CMakeFiles/NVIC_lib.dir
+C:/ITI Intake-45 9 Months/github_repos/ES45_ARM/COTS/MCAL/NVIC/build/CMakeFiles/edit_cache.dir
+C:/ITI Intake-45 9 Months/github_repos/ES45_ARM/COTS/MCAL/NVIC/build/CMakeFiles/rebuild_cache.dir
