@@ -1,2 +1,0 @@
-C:\Mingw64\mingw64\bin\ar.exe qc libRCC_lib.a CMakeFiles/RCC_lib.dir/src/rcc.c.obj
-C:\Mingw64\mingw64\bin\ranlib.exe libRCC_lib.a

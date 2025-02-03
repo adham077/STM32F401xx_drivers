@@ -1,2 +1,0 @@
-C:\Mingw64\mingw64\bin\ar.exe qc libSYSCFG_lib.a CMakeFiles/SYSCFG_lib.dir/src/syscfg.c.obj
-C:\Mingw64\mingw64\bin\ranlib.exe libSYSCFG_lib.a

@@ -1,2 +1,0 @@
-C:\Mingw64\mingw64\bin\ar.exe qc libSWITCH_lib.a CMakeFiles/SWITCH_lib.dir/src/switch.c.obj CMakeFiles/SWITCH_lib.dir/src/switch_cfg.c.obj
-C:\Mingw64\mingw64\bin\ranlib.exe libSWITCH_lib.a
