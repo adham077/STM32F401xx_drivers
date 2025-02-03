@@ -1,2 +1,0 @@
-C:\Mingw64\mingw64\bin\ar.exe qc libGPIO.a CMakeFiles/GPIO.dir/src/GPIO.c.obj CMakeFiles/GPIO.dir/src/GPIO_CFG.c.obj
-C:\Mingw64\mingw64\bin\ranlib.exe libGPIO.a

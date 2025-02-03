@@ -1,2 +1,0 @@
-C:\Mingw64\mingw64\bin\ar.exe qc libNVIC_lib.a CMakeFiles/NVIC_lib.dir/src/nvic.c.obj
-C:\Mingw64\mingw64\bin\ranlib.exe libNVIC_lib.a
