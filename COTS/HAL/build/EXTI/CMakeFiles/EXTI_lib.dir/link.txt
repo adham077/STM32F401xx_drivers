@@ -1,0 +1,2 @@
+C:\Mingw64\mingw64\bin\ar.exe qc libEXTI_lib.a CMakeFiles/EXTI_lib.dir/src/exti.c.obj
+C:\Mingw64\mingw64\bin\ranlib.exe libEXTI_lib.a

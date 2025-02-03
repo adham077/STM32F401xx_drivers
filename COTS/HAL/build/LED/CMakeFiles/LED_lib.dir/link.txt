@@ -1,0 +1,2 @@
+C:\Mingw64\mingw64\bin\ar.exe qc libLED_lib.a CMakeFiles/LED_lib.dir/src/led.c.obj CMakeFiles/LED_lib.dir/src/led_cfg.c.obj
+C:\Mingw64\mingw64\bin\ranlib.exe libLED_lib.a
