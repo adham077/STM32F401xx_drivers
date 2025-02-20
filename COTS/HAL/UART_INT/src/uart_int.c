@@ -197,7 +197,7 @@ UartInt_enuErrorStatus_t UartInt_enuSendString(uint8_t Copy_u8Uart,
 const uint8_t* Add_u8Str){
     
     UartInt_enuErrorStatus_t Loc_enuStatus = UartInt_enu_OK;
-    uint8_t i = 0;
+    volatile uint8_t i = 0;
 
     for(;(Add_u8Str[i]) && (i < UART_INT_MAX_BUFF_SIZE);i++){}
 
