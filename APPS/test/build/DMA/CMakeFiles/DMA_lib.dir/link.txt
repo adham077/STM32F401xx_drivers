@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libDMA_lib.a CMakeFiles/DMA_lib.dir/src/dma.c.obj
+/usr/bin/arm-none-eabi-ranlib libDMA_lib.a

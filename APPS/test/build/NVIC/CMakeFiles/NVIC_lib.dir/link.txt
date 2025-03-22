@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libNVIC_lib.a CMakeFiles/NVIC_lib.dir/src/nvic.c.obj
+/usr/bin/arm-none-eabi-ranlib libNVIC_lib.a

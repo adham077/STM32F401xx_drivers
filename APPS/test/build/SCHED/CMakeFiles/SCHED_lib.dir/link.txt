@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libSCHED_lib.a CMakeFiles/SCHED_lib.dir/src/scheduler.c.obj
+/usr/bin/arm-none-eabi-ranlib libSCHED_lib.a

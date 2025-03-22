@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libSYSTICK_lib.a CMakeFiles/SYSTICK_lib.dir/src/systick.c.obj
+/usr/bin/arm-none-eabi-ranlib libSYSTICK_lib.a

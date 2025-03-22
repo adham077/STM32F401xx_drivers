@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libRCC_lib.a CMakeFiles/RCC_lib.dir/src/rcc.c.obj
+/usr/bin/arm-none-eabi-ranlib libRCC_lib.a

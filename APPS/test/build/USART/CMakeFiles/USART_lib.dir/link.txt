@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libUSART_lib.a CMakeFiles/USART_lib.dir/src/usart.c.obj
+/usr/bin/arm-none-eabi-ranlib libUSART_lib.a

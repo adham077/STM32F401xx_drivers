@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libLED_lib.a CMakeFiles/LED_lib.dir/src/led.c.obj CMakeFiles/LED_lib.dir/src/led_cfg.c.obj
+/usr/bin/arm-none-eabi-ranlib libLED_lib.a
