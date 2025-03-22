@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "STM32 Debugger",
+          "type": "cortex-debug",
+          "request": "launch",
+          "servertype": "openocd", 
+          "cwd": "${workspaceRoot}",
+          
+          /*Change this depending on your application path*/
+          "executable": "APPS/test/build/test",
+          
+          "gdbPath": "gdb-multiarch",
+          "device": "STM32F401CC",
+          "svdFile": "${workspaceRoot}/STM32F401.svd",
+          "serverArgs": [],  
+          "showDevDebugOutput": "raw",
+          "configFiles": [
+              "interface/stlink-v2.cfg",  
+              "target/stm32f4x.cfg"  
+          ]
+      }
+  ]
+}
