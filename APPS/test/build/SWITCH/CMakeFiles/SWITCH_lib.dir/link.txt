@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libSWITCH_lib.a CMakeFiles/SWITCH_lib.dir/src/switch.c.obj CMakeFiles/SWITCH_lib.dir/src/switch_cfg.c.obj
-/usr/bin/arm-none-eabi-ranlib libSWITCH_lib.a

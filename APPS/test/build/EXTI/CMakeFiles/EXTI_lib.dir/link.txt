@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libEXTI_lib.a CMakeFiles/EXTI_lib.dir/src/exti.c.obj
-/usr/bin/arm-none-eabi-ranlib libEXTI_lib.a

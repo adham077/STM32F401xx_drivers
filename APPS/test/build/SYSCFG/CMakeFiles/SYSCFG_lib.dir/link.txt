@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libSYSCFG_lib.a CMakeFiles/SYSCFG_lib.dir/src/syscfg.c.obj
-/usr/bin/arm-none-eabi-ranlib libSYSCFG_lib.a

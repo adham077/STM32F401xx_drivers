@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libUART_INT_lib.a CMakeFiles/UART_INT_lib.dir/src/uart_int.c.obj CMakeFiles/UART_INT_lib.dir/src/uart_int_cfg.c.obj
-/usr/bin/arm-none-eabi-ranlib libUART_INT_lib.a
